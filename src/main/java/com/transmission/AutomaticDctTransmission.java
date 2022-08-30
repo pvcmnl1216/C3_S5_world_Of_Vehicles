@@ -4,9 +4,7 @@
  * Praise The Lord
  */
 package com.transmission;
-
-
-public class ManualTransmission extends transmission{
+public class AutomaticDctTransmission extends transmission {
     int forwardGears;
     double firstGearRatio;
     double secondGearRatio;
@@ -14,9 +12,9 @@ public class ManualTransmission extends transmission{
     double fourthGearRatio;
     double fifthGearRatio;
     double sixthGearRatio;
-
-    public ManualTransmission(String type, String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio, double fifthGearRatio, double sixthGearRatio) {
-
+    double seventhGearRatio;
+    double eighthGearRatio;
+    public AutomaticDctTransmission(String type, String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio, double fifthGearRatio, double sixthGearRatio, double seventhGearRatio, double eighthGearRatio) {
         this.forwardGears = forwardGears;
         this.firstGearRatio = firstGearRatio;
         this.secondGearRatio = secondGearRatio;
@@ -24,8 +22,9 @@ public class ManualTransmission extends transmission{
         this.fourthGearRatio = fourthGearRatio;
         this.fifthGearRatio = fifthGearRatio;
         this.sixthGearRatio = sixthGearRatio;
+        this.seventhGearRatio = seventhGearRatio;
+        this.eighthGearRatio = eighthGearRatio;
     }
-
     @Override
     public void showSpecs() {
         System.out.println("Transmission Type: " + getType());
@@ -37,7 +36,8 @@ public class ManualTransmission extends transmission{
         System.out.println("4th Gear Ratio: " + fourthGearRatio);
         System.out.println("5th Gear Ratio: " + fifthGearRatio);
         System.out.println("6th Gear Ratio: " + sixthGearRatio);
+        System.out.println("7th Gear Ratio: " + seventhGearRatio);
+        System.out.println("6th Gear Ratio: " + eighthGearRatio);
         System.out.println("====================================");
     }
-
 }

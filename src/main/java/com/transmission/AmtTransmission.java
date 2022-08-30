@@ -4,18 +4,14 @@
  * Praise The Lord
  */
 package com.transmission;
-
-
-public class ManualTransmission extends transmission{
+public class AmtTransmission extends transmission {
     int forwardGears;
     double firstGearRatio;
     double secondGearRatio;
     double thirdGearRatio;
     double fourthGearRatio;
     double fifthGearRatio;
-    double sixthGearRatio;
-
-    public ManualTransmission(String type, String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio, double fifthGearRatio, double sixthGearRatio) {
+    public AmtTransmission(String type, String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio, double fifthGearRatio) {
 
         this.forwardGears = forwardGears;
         this.firstGearRatio = firstGearRatio;
@@ -23,9 +19,7 @@ public class ManualTransmission extends transmission{
         this.thirdGearRatio = thirdGearRatio;
         this.fourthGearRatio = fourthGearRatio;
         this.fifthGearRatio = fifthGearRatio;
-        this.sixthGearRatio = sixthGearRatio;
     }
-
     @Override
     public void showSpecs() {
         System.out.println("Transmission Type: " + getType());
@@ -36,8 +30,6 @@ public class ManualTransmission extends transmission{
         System.out.println("3rd Gear Ratio: " + thirdGearRatio);
         System.out.println("4th Gear Ratio: " + fourthGearRatio);
         System.out.println("5th Gear Ratio: " + fifthGearRatio);
-        System.out.println("6th Gear Ratio: " + sixthGearRatio);
         System.out.println("====================================");
     }
-
 }

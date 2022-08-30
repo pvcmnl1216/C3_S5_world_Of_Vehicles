@@ -5,8 +5,7 @@
  */
 package com.transmission;
 
-
-public class ManualTransmission extends transmission{
+public class AutomaticCvtTransmission extends transmission {
     int forwardGears;
     double firstGearRatio;
     double secondGearRatio;
@@ -14,9 +13,7 @@ public class ManualTransmission extends transmission{
     double fourthGearRatio;
     double fifthGearRatio;
     double sixthGearRatio;
-
-    public ManualTransmission(String type, String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio, double fifthGearRatio, double sixthGearRatio) {
-
+    public AutomaticCvtTransmission(String type, String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio, double fifthGearRatio, double sixthGearRatio) {
         this.forwardGears = forwardGears;
         this.firstGearRatio = firstGearRatio;
         this.secondGearRatio = secondGearRatio;
@@ -25,7 +22,6 @@ public class ManualTransmission extends transmission{
         this.fifthGearRatio = fifthGearRatio;
         this.sixthGearRatio = sixthGearRatio;
     }
-
     @Override
     public void showSpecs() {
         System.out.println("Transmission Type: " + getType());
@@ -39,5 +35,4 @@ public class ManualTransmission extends transmission{
         System.out.println("6th Gear Ratio: " + sixthGearRatio);
         System.out.println("====================================");
     }
-
 }

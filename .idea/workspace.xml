@@ -4,14 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db6d79e5-4562-40f1-ab47-53b7f590d4d5" name="Changes" comment="" />
+    <list default="true" id="db6d79e5-4562-40f1-ab47-53b7f590d4d5" name="Changes" comment="the transmisson class is created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transmission/AmtTransmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transmission/AutomaticCvtTransmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/transmission/AutomaticDctTransmission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/transmission/ManualTransmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/transmission/ManualTransmission.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E5ZJJ2WAkCHywJxrcahLXOxFD9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,6 +41,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.transmission" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +55,53 @@
       <option name="presentableId" value="Default" />
       <updated>1661887335027</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1661887359245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661887359245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="the maven target is changed from 18 to 11">
+      <created>1661887390320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661887390320</updated>
+    </task>
+    <task id="LOCAL-00003" summary="the transmission class is created">
+      <created>1661887494997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661887494997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="the transmisson class is created">
+      <created>1661887632195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661887632195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="the maven target is changed from 18 to 11" />
+    <MESSAGE value="the transmission class is created" />
+    <MESSAGE value="the transmisson class is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="the transmisson class is created" />
   </component>
 </project>
